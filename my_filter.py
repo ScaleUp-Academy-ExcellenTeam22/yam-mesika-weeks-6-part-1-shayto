@@ -1,7 +1,8 @@
 from collections.abc import Iterable
+from typing import Optional
 
 
-def my_filter(func,  iterable: Iterable):
+def my_filter(func: Optional,  iterable: Iterable):
     """
     function that acts as regular python filter function.
     :param func: function that we want our new list to act by.
