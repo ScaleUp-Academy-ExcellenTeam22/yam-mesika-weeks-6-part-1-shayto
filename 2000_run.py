@@ -10,10 +10,10 @@ def timer(function, *args, **kwargs) -> float:
     :param kwargs: Parameters to the function.
     :return: The time it took for the function to run.
     """
-    start = time.time()
+    start_time = time.time()
     function(*args, **kwargs)
-    end = time.time()
-    return end - start
+    end_time = time.time()
+    return end_time - start_time
 
 
 if __name__ == "__main__":
