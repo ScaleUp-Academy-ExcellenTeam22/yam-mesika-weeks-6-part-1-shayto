@@ -1,8 +1,8 @@
 def words_length(sentence: str) -> list[int]:
     """
     This function receives a sentence, splits the sentence to words (including punctuation)
-    This function returns a list of all  words length.
-    :param sentence: The sentence to split in to words and check their lengths.
+    This function returns a list of all words length.
+    :param sentence: The sentence to split into words and check their lengths.
     :return: List of the lengths of the words.
     """
     words = sentence.split()
