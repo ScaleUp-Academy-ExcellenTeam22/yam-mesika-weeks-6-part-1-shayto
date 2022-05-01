@@ -3,8 +3,8 @@ import time
 
 def timer(function, *args, **kwargs) -> float:
     """
-    This function receives a function and parameters and calculates the time it takes for the
-    to run with the parameters.
+    This function receives a function and parameters and calculates the time it takes for
+    the function to run with the parameters.
     :param function: The function.
     :param args: Parameters to the function.
     :param kwargs: Parameters to the function.
